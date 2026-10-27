@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="app-container">
+        
+        <!-- LEFT SIDEBAR -->
+        <aside class="sidebar">
+            <div class="profile-header">
+                <div class="avatar"></div>
+                <div class="name-class-box">
+                    <h2>StudySync</h2>
+                    <p>Home</p>
+                </div>
+            </div>
+<div class="large-profile-box" style="display: flex; align-items: center; justify-content: center; width: 100%; max-width: 200px; height: 200px; overflow: hidden; border-radius: 50%; margin: 0 auto;">
+  <img src="/Assignment1/img/hafiz.png" alt="Logo" style="width: 100%; height: 100%; object-fit: cover; object-position: center; display: block;">
+</div>
+            
+            <div class="profile-details">
+                <p><strong>Name:</strong> Mohamed Marwan</p>
+                <p><strong>Email:</strong> mmm00163@students.stir.ac.uk</p>
+                <p><strong>ID:</strong> 3657867</p>
+                <p><strong>Major:</strong> Data Science</p>
+            </div>
+
+            <nav class="nav-section">
+                <form action="notes.html" method="GET" style="margin: 0; width: 100%;">
+    <input type="text" name="q" class="nav-btn search" placeholder="Search..." style="border: none; outline: none; font-family: inherit; font-size: 16px; color: var(--beige-dark);">
+</form>
+                
+                <a href="modules.html" class="nav-btn link">Modules</a>
+                <a href="lecturer.html" class="nav-btn link">Lecturers</a>
+                <a href="student.html" class="nav-btn link">Students</a>
+            </nav>
+
+            <div class="sidebar-bottom">
+                <div class="footer-left">
+                <a href="home.html" class="home-text" style="text-decoration: none;">Home</a>
+                
+                <div class="footer-icons">
+                    <a href="profile.html" class="icon-image-box">
+                        <img src="/Assignment1/img/profile.png" alt="Icon 1">
+                    </a>
+                    <a href="feed.html" class="icon-image-box">
+                        <img src="/Assignment1/img/feed.png" alt="Icon 2">
+                    </a>
+                    <a href="index.html" class="icon-image-box">
+                        <img src="/Assignment1/img/logout.png" alt="Icon 3">
+                    </a>
+                </div>
+            </div>
+            </div>
+        </aside>
+
+        <!-- MAIN CONTENT AREA -->
+        <main class="main-content">
+            
+            <!-- Top Header Bar -->
+            <div class="main-header-bar">
+                Database Notes
+            </div>
+
+            <!-- Content Layout -->
+            <div class="content-grid">
+                
+                <!-- Left Side (Image Area) -->
+<div class="image-area">
+    <div class="main-image-placeholder">
+        <img src="img/database.png" alt="Database Notes">
+    </div>
+    <div class="scroll-down-btn">↓</div>
+    <div class="notes-details">
+        <p>Student name: Mohamed Marwan</p>
+        <p>Class: DSAI 3B</p>
+        <p>Subject: Databases</p>
+        <p>Lecturer: Dr Brumancia</p>
+    </div>
+</div>
+
+                <!-- Right Side (Text Info) -->
+                <div class="text-area">
+                    <h3>Databases</h3>
+                    <p>1. Database normalization is the process of organizing the columns (attributes) and tables (relations) of a relational database to minimize data redundancy and improve data integrity.
+                        2. Normalization typically involves dividing larger tables into smaller, more structured tables and defining relationships between them.
+                        3. The most common normalization forms are 1NF, 2NF, and 3NF, which deal with data redundancy and dependency issues.
+                        4. Higher forms like Boyce-Codd Normal Form (BCNF) and 4NF address more complex dependencies.</p>
+                    
+                    <h3>Current Focus</h3>
+                    <p>1. AI ethics is a branch of applied ethics that studies the moral issues and concerns related to artificial intelligence.
+                        2. It addresses questions about the impact of AI on society, including issues of fairness, accountability, transparency, and privacy.
+                        3. Key concerns include algorithmic bias, job displacement, autonomous weapons, and the potential for AI to be used for malicious purposes.
+                        4. Ethical guidelines and regulations are being developed to ensure that AI is developed and used in a responsible manner.</p>
+
+                    <div class="text-area-bottom">
+                        <div class="star-icon">★</div>
+                        <div class="button-row">
+                            <button class="action-btn">Save</button>
+                            <button class="action-btn">Download</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+
+        <!-- BOTTOM FOOTER -->
+        <footer class="footer">
+            <p>© 2024 University Portal. All rights reserved.</p>
+        </footer>
+        
+    </div>
+
+</body>
+</html>
